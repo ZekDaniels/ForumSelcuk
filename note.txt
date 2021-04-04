@@ -1,0 +1,28 @@
+#1-laravel proje oluşturma
+    1A.laravel new respect
+
+#2-laravel login sistemi
+    2A.composer require laravel/ui
+
+    #Eğer memory size hatası verirse
+        2.0 php COMPOSER_MEMORY_LIMIT=-1 composer require huddledigital/zendesk-laravel veya COMPOSER_MEMORY_LIMIT=-1 composer require huddledigital/zendesk-laravel
+        2.A composer require laravel/ui
+
+    2.B php artisan ui bootstrap --auth
+    #node.js yoksa kur, path ayarlanmamış ise ayar node --version ile test edebilirsin  
+    2.C npm install
+    2.D npm run dev
+
+    #opsiyonel php artisan ui:auth # neden var bilmiyorum.
+
+#3-Admin-LTE ekleme
+    3. npm install admin-lte --save
+
+
+Kurulan paketler
+Adminlte
+fontawesome
+vue
+vue bootstrap
+Sweetalert
+vform

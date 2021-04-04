@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//Admin-LTE
+@import '~admin-lte/dist/css/adminlte.css';
+//Icons fontawosome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+    .login-box {
+        .login-logo {
+            color: #f8fafc;
+            line-height: 1em;
+            letter-spacing: 0.1em;
+            font-size: 0.6;
+        }
+    }
+    .invalid-feedback {
+        display: block;
+        width: 100%;
+        margin-top: 0.25rem;
+        font-size: 80%;
+        color: #e3342f;
+    }
+    .delete-modal {
+        border-width: 3.2px !important;
+        color: #e3342f;
+        border-color: #e3342f !important;
+        p {
+            margin-right: 0.7rem;
+            font-size: 1.5rem;
+            text-align: center;
+            i {
+                color: #e3342f;
+                border-width: 4px !important;
+                border-color: #e3342f !important;
+                border-radius: 200px;
+            }
+        }
+    }
+}
